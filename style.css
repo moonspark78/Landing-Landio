@@ -31,3 +31,52 @@
 
   --section-padding: 80px;
 }
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  block-size: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+a,
+img,
+span,
+input,
+label,
+button,
+ion-icon,
+textarea{
+  display: block;
+}
+
+button{
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  
+}
+
+input,
+textarea{
+  border: none;
+  font: inherit;
+  width: 100%;
+}
+
+html{
+  font-family: var(--ff-quicksand);
+  scroll-behavior: smooth;
+}
+
+body{
+  background: var(--white);
+}
