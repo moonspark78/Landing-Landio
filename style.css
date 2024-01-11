@@ -11,4 +11,23 @@
   --cool-gray: hsl(244, 17%, 61%);
   --sapphire: hsl(211, 100%, 35%);
   --white: hsl(0, 0%, 100%);
+
+  --ff-quicksand: "Quicksand", sans-serif;
+  --ff-mulish: "Mulish", sans-serif; 
+
+  --fs-1: 36px;
+  --fs-2: 28px;
+  --fs-3: 20px;
+  --fs-4: 17px;
+  --fs-5: 16px;
+  --fs-6: 15px;
+  --fs-7: 14px;
+
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --transition: 0.25s ease;
+
+  --section-padding: 80px;
 }
